@@ -1,0 +1,30 @@
+{
+  "name": "fastify-crash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariolazzari/fastify-crash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariolazzari/fastify-crash/issues"
+  },
+  "homepage": "https://github.com/mariolazzari/fastify-crash#readme",
+  "dependencies": {
+    "@fastify/static": "^6.5.0",
+    "@fastify/swagger": "^7.6.1",
+    "fastify": "^4.7.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
